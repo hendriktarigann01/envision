@@ -114,7 +114,7 @@ export default function Footer() {
                 className="flex items-center gap-1.5 text-xs font-body text-white hover:text-white transition-colors"
               >
                 <Image
-                  src="/images/icons/Instagram.webp"
+                  src="/images/icons/instagram.webp"
                   alt="Instagram"
                   width={16}
                   height={16}
