@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "about": "About",
+    "products": "Products and Services",
+    "whyEnvision": "Why Envision",
+    "ourProcess": "Our Process",
+    "getConsultation": "Get Consultation"
+  },
+  "hero": {
+    "headline": "Illuminate Every\nSpace. Story. Stage.",
+    "subheadline": "We design and deploy premium LED & LCD display systems that transform institutional, corporate, and public spaces into captivating visual experiences.",
+    "cta": "Get Consultation"
+  },
+  "about": {
+    "label": "About",
+    "headline": "Translating Legacy,\nArchitecting the\nFuture.",
+    "body": "We turn stories into immersive digital experiences with premium LED and LCD display solutions designed to inform, inspire, and endure."
+  },
+  "products": {
+    "label": "Products & Services",
+    "headline": "Four Pillars of\nDisplay Excellence",
+    "subheadline": "End-to-end solutions for your spatial display needs hardware, software, and ongoing support.",
+    "pillars": {
+      "immersive": {
+        "title": "Immersive Display",
+        "description": "Floor-to-ceiling LED panels and 3D projection mapping systems. With spatial audio integration, ideal for main halls, lobbies, and event theaters."
+      },
+      "interactive": {
+        "title": "Interactive Display & Showcases",
+        "description": "Designing advanced touchscreen hardware and software using transparent OLED displays to showcase artifacts without touching them."
+      },
+      "holographic": {
+        "title": "Holographic and AI Avatars",
+        "description": "Floating 3D holographic displays and AI-driven virtual assistant kiosks. Create high-impact brand experiences for VIP areas and flagship locations."
+      },
+      "arvr": {
+        "title": "AR/VR Experience Stations",
+        "description": "Takes viewers beyond physical boundaries through AR/VR apps, perfect for virtual historical tours, simulations of mega-infrastructure projects, or compact exhibition booths"
+      }
+    }
+  },
+  "why": {
+    "label": "Why Envision",
+    "centerHeadline": "More Than Displays.\nWe Build Prestige.",
+    "reasons": {
+      "bespoke": {
+        "title": "Bespoke by Design",
+        "description": "Fully custom-built to match your space and identity."
+      },
+      "seamless": {
+        "title": "Seamless Integration",
+        "description": "Clean, hidden installation that blends into your interior."
+      },
+      "enterprise": {
+        "title": "Enterprise Reliability",
+        "description": "Built for 24/7 use with durable, industrial-grade hardware."
+      },
+      "partner": {
+        "title": "End-to-End Partner",
+        "description": "From concept to long-term support, all in one hand."
+      }
+    }
+  },
+  "process": {
+    "label": "Our Process",
+    "headline": "Precision Methodology.\nFlawless Execution.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Blueprint",
+        "description": "We analyze your space, audience, and goals then define the full concept and technical plan."
+      },
+      "spatial": {
+        "title": "Spatial & UX Design",
+        "description": "We design user journeys, visual layouts, and simulate the experience before build."
+      },
+      "technology": {
+        "title": "Technology & Content Build",
+        "description": "Custom software, content, and system integration all built in-house."
+      },
+      "installation": {
+        "title": "Seamless Installation",
+        "description": "Clean, efficient on-site setup with no disruption to your space."
+      },
+      "support": {
+        "title": "Support & Future-Proofing",
+        "description": "Ongoing support, training, and CMS access to keep your system up to date."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Let's Build Your Next Display.",
+    "body": "Ready to transform your space into an unforgettable visual destination? Tell us about your project, and we’ll get back to you within 24 hours.",
+    "cta": "Get Consultation"
+  },
+  "footer": {
+    "tagline": "Architecting Tomorrow’s Legacy",
+    "copyright": "© 2026 Envision. All rights reserved.",
+    "links": {
+      "product": "Product",
+      "services": "Services",
+      "whyChooseUs": "Why choose us",
+      "consultation": "Consultation"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "products": "Produk & Layanan",
+    "whyEnvision": "Mengapa Envision",
+    "ourProcess": "Proses Kami",
+    "getConsultation": "Konsultasi Gratis"
+  },
+  "hero": {
+    "headline": "Terangi Setiap\nRuang. Cerita. Panggung.",
+    "subheadline": "Kami merancang dan memasang sistem tampilan LED & LCD premium yang mengubah ruang institusi, korporat, dan publik menjadi pengalaman visual yang memukau.",
+    "cta": "Konsultasi Gratis"
+  },
+  "about": {
+    "label": "Tentang",
+    "headline": "Mewarisi Warisan,\nMembangun\nMasa Depan.",
+    "body": "Kami mengubah cerita menjadi pengalaman digital yang imersif melalui solusi layar LED dan LCD berkualitas tinggi — dirancang untuk menginformasikan, menginspirasi, dan bertahan lama."
+  },
+  "products": {
+    "label": "Produk & Layanan",
+    "headline": "Empat Pilar\nKeunggulan Display",
+    "subheadline": "Solusi end-to-end untuk kebutuhan display Anda — hardware, software, dan dukungan berkelanjutan.",
+    "pillars": {
+      "immersive": {
+        "title": "Display Imersif",
+        "description": "Panel LED floor-to-ceiling dan sistem proyeksi 3D mapping. Dengan integrasi audio spasial, ideal untuk aula utama, lobi, dan teater acara."
+      },
+      "interactive": {
+        "title": "Display & Showcase Interaktif",
+        "description": "Merancang hardware layar sentuh canggih dan software berbasis display OLED transparan untuk memamerkan objek tanpa perlu menyentuhnya."
+      },
+      "holographic": {
+        "title": "Avatar Holografik & AI",
+        "description": "Display holografik 3D mengambang dan kios asisten virtual berbasis AI. Ciptakan pengalaman brand yang berkesan untuk area VIP dan lokasi unggulan."
+      },
+      "arvr": {
+        "title": "Stasiun Pengalaman AR/VR",
+        "description": "Membawa penonton melampaui batas fisik melalui aplikasi AR/VR — sempurna untuk tur sejarah virtual, simulasi proyek infrastruktur besar, atau booth pameran kompak."
+      }
+    }
+  },
+  "why": {
+    "label": "Mengapa Envision",
+    "centerHeadline": "Lebih dari Sekadar Display.\nKami Membangun Prestise.",
+    "reasons": {
+      "bespoke": {
+        "title": "Desain Bespoke",
+        "description": "Dibangun sepenuhnya sesuai dengan ruang dan identitas Anda."
+      },
+      "seamless": {
+        "title": "Integrasi Mulus",
+        "description": "Instalasi rapi dan tersembunyi yang menyatu sempurna dengan interior Anda."
+      },
+      "enterprise": {
+        "title": "Keandalan Enterprise",
+        "description": "Dirancang untuk beroperasi 24/7 dengan hardware kelas industri yang tahan lama."
+      },
+      "partner": {
+        "title": "Mitra End-to-End",
+        "description": "Dari konsep hingga dukungan jangka panjang, semua dalam satu tangan."
+      }
+    }
+  },
+  "process": {
+    "label": "Proses Kami",
+    "headline": "Metodologi Presisi.\nEksekusi Sempurna.",
+    "steps": {
+      "discovery": {
+        "title": "Penemuan & Cetak Biru",
+        "description": "Kami menganalisis ruang, audiens, dan tujuan Anda — lalu menyusun konsep menyeluruh beserta rencana teknisnya."
+      },
+      "spatial": {
+        "title": "Desain Spasial & UX",
+        "description": "Kami merancang alur pengguna, tata letak visual, dan mensimulasikan pengalaman sebelum proses pembangunan dimulai."
+      },
+      "technology": {
+        "title": "Teknologi & Pembuatan Konten",
+        "description": "Software kustom, konten, dan integrasi sistem — semuanya dibangun secara in-house."
+      },
+      "installation": {
+        "title": "Instalasi Mulus",
+        "description": "Pemasangan on-site yang bersih dan efisien tanpa mengganggu operasional ruang Anda."
+      },
+      "support": {
+        "title": "Dukungan & Ketahanan Jangka Panjang",
+        "description": "Dukungan berkelanjutan, pelatihan, dan akses CMS untuk memastikan sistem Anda selalu mutakhir."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Mari Wujudkan Display Anda Berikutnya.",
+    "body": "Siap mengubah ruang Anda menjadi destinasi visual yang tak terlupakan? Ceritakan proyek Anda, dan kami akan menghubungi Anda dalam 24 jam.",
+    "cta": "Konsultasi Gratis"
+  },
+  "footer": {
+    "tagline": "Merancang Warisan Masa Depan",
+    "copyright": "© 2026 Envision. Hak Cipta Dilindungi.",
+    "links": {
+      "product": "Produk",
+      "services": "Layanan",
+      "whyChooseUs": "Mengapa Kami",
+      "consultation": "Konsultasi"
+    }
+  }
+}
