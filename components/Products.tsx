@@ -33,7 +33,7 @@ export default function Products() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.5 }}
-          className="flex items-center mx-auto gap-2 mb-6 p-3 rounded-full w-52 justify-center border border-brand-blue"
+          className="flex items-center gap-2 mb-6 p-3 rounded-full w-52 justify-center border border-brand-blue"
         >
           <span className="w-2 h-2 rounded-full bg-brand-blue" />
           <span className="text-sm font-body text-[#3B82F6] tracking-widest">
@@ -68,7 +68,7 @@ export default function Products() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 * i + 0.3 }}
-              className={`group relative bg-[#02030A] p-8 transition-colors duration-300 overflow-hidden
+              className={`group relative bg-[#060A1A] p-8 transition-colors duration-300 overflow-hidden
         border-brand-indigo
         ${i < 3 ? "border-b" : ""}
         ${i % 2 === 0 ? "md:border-r" : ""}

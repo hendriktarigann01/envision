@@ -42,7 +42,7 @@ export default function Process() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.5 }}
-          className="flex items-center gap-2 mb-6 p-3 rounded-full w-52 justify-center border border-brand-blue"
+          className="flex items-center gap-2 mb-6 p-3 rounded-full w-40 justify-center border border-brand-blue"
         >
           <span className="w-2 h-2 rounded-full bg-brand-blue" />
           <span className="text-sm font-body text-[#3B82F6] tracking-widest">
