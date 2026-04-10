@@ -139,7 +139,6 @@ export default function Navbar() {
         </div>
       </motion.header>
 
-      {/* Mobile Menu — full screen dark overlay, same pattern as KMI */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
