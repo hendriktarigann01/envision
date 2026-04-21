@@ -7,10 +7,9 @@ export default function Footer() {
   const t = useTranslations("footer");
 
   const links = [
-    { label: t("links.product"), href: "#products" },
-    { label: t("links.services"), href: "#products" },
-    { label: t("links.whyChooseUs"), href: "#why" },
-    { label: t("links.consultation"), href: "#contact" },
+    { label: t("links.about"), href: "#about" },
+    { label: t("links.platform"), href: "#platform" },
+    { label: t("links.ourProcess"), href: "#process" },
   ];
 
   return (

@@ -12,6 +12,7 @@ const stepKeys = [
   "installation",
   "support",
 ] as const;
+
 const stepIcons: Record<string, string> = {
   discovery: "/images/icons/check.webp",
   spatial: "/images/icons/layout.webp",
@@ -27,7 +28,7 @@ export default function Process() {
 
   return (
     <section id="process" className="relative py-24 lg:py-32 px-6" ref={ref}>
-      <div className="absolute -top-[5%] lg:top-0 -right-[40%] lg:right-0 z-0">
+      <div className="absolute -top-[5%] lg:top-0 -right-[40%] lg:right-0 z-0 pointer-events-none">
         <Image
           src="/images/effects/blur.webp"
           alt="blur-effect"
@@ -42,7 +43,7 @@ export default function Process() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.5 }}
-          className="flex items-center gap-2 mb-6 p-3 rounded-full w-40 justify-center border border-brand-blue"
+          className="flex items-center gap-2 mb-6 p-3 rounded-full w-fit px-4 justify-center border border-brand-blue"
         >
           <span className="w-2 h-2 rounded-full bg-brand-blue" />
           <span className="text-sm font-body text-[#3B82F6] tracking-widest">
@@ -59,15 +60,23 @@ export default function Process() {
           {t("headline")}
         </motion.h2>
 
-        {/* First row: 3 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 rounded-sm overflow-hidden mb-px">
+        {/* ── Row 1: mobile 2-col / desktop 3-col ── */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {stepKeys.slice(0, 3).map((key, i) => (
-            <StepCard key={key} stepKey={key} index={i} inView={inView} t={t} />
+            <StepCard
+              key={key}
+              stepKey={key}
+              index={i}
+              inView={inView}
+              t={t}
+              // Logic ini memastikan item ke-3 mengambil baris penuh di mobile (col-span-2)
+              className={i === 2 ? "col-span-2 md:col-span-1" : ""}
+            />
           ))}
         </div>
 
-        {/* Second row: 2 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 rounded-sm overflow-hidden">
+        {/* ── Row 2: mobile 2-col / desktop 2-col ── */}
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-6 rounded-sm overflow-hidden">
           {stepKeys.slice(3).map((key, i) => (
             <StepCard
               key={key}
@@ -75,6 +84,13 @@ export default function Process() {
               index={i + 3}
               inView={inView}
               t={t}
+              // Jika jumlah item di Row 2 ganjil, item terakhir akan memenuhi lebar mobile
+              className={
+                i === stepKeys.slice(3).length - 1 &&
+                stepKeys.slice(3).length % 2 !== 0
+                  ? "col-span-2 md:col-span-1"
+                  : ""
+              }
             />
           ))}
         </div>
@@ -88,31 +104,31 @@ function StepCard({
   index,
   inView,
   t,
+  className = "",
 }: {
   stepKey: string;
   index: number;
   inView: boolean;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   t: any;
+  className?: string;
 }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5, delay: index * 0.1 + 0.2 }}
-      className="group bg-[#060A1A] px-4 py-8 border border-brand-indigo rounded-xl transition-colors duration-300 relative overflow-hidden"
+      className={`group bg-[#060A1A] px-4 py-8 border border-brand-indigo rounded-xl transition-colors duration-300 relative overflow-hidden ${className}`}
     >
       <div className="absolute inset-0 bg-brand-blue/0 group-hover:bg-brand-blue/4 transition-all duration-500 pointer-events-none" />
-      <h3 className="font-display font-semibold text-base text-white mb-2">
+      <h3 className="font-display font-semibold text-sm md:text-base text-white mb-2">
         {t(`steps.${stepKey}.title`)}
       </h3>
-      <p className="font-body text-sm text-white leading-relaxed">
+      <p className="font-body text-xs md:text-sm min-h-[100px] md:min-h-10 text-white leading-relaxed">
         {t(`steps.${stepKey}.description`)}
       </p>
-      <div className="w-full h-32 flex justify-center items-center relative">
-        {/* blur effect */}
+      <div className="w-full h-28 md:h-32 flex justify-center items-center relative mt-4">
         <div className="absolute w-20 h-20 bg-[#223DAA] rounded-full blur-3xl pointer-events-none" />
-
         <Image
           src={stepIcons[stepKey]}
           alt={stepKey}

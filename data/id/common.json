@@ -1,63 +1,183 @@
 {
   "nav": {
     "about": "Tentang",
-    "products": "Produk & Layanan",
-    "whyEnvision": "Mengapa Envision",
-    "ourProcess": "Proses Kami",
-    "getConsultation": "Konsultasi Gratis"
+    "platform": "Platform",
+    "ourProcess": "Proses Kami"
   },
   "hero": {
-    "headline": "Terangi Setiap\nRuang. Cerita. Panggung.",
-    "subheadline": "Kami merancang dan memasang sistem tampilan LED & LCD premium yang mengubah ruang institusi, korporat, dan publik menjadi pengalaman visual yang memukau.",
+    "headline": "The Multiverse Engine",
+    "subheadline": "Visual engine mutakhir, kinesthetic-core, dan platform sensorik yang mengaburkan batas antara penonton dan narasi.",
     "cta": "Konsultasi Gratis"
   },
   "about": {
     "label": "Tentang",
-    "headline": "Mewarisi Warisan,\nMembangun\nMasa Depan.",
-    "body": "Kami mengubah cerita menjadi pengalaman digital yang imersif melalui solusi layar LED dan LCD berkualitas tinggi — dirancang untuk menginformasikan, menginspirasi, dan bertahan lama."
-  },
-  "products": {
-    "label": "Produk & Layanan",
-    "headline": "Empat Pilar\nKeunggulan Display",
-    "subheadline": "Solusi end-to-end untuk kebutuhan display Anda — hardware, software, dan dukungan berkelanjutan.",
+    "headline": "Merancang Pengalaman",
+    "subheadline": "Di era ketika penonton mengharapkan lebih dari sekadar menonton, Envision mendefinisikan ulang pengalaman melampaui layar. Dengan memadukan visual, gerak, audio atmospheric-synthesizer, dan elemen sensorik, kami menciptakan Multiverse Engine.",
     "pillars": {
-      "immersive": {
-        "title": "Display Imersif",
-        "description": "Panel LED floor-to-ceiling dan sistem proyeksi 3D mapping. Dengan integrasi audio spasial, ideal untuk aula utama, lobi, dan teater acara."
-      },
-      "interactive": {
-        "title": "Display & Showcase Interaktif",
-        "description": "Merancang hardware layar sentuh canggih dan software berbasis display OLED transparan untuk memamerkan objek tanpa perlu menyentuhnya."
-      },
-      "holographic": {
-        "title": "Avatar Holografik & AI",
-        "description": "Display holografik 3D mengambang dan kios asisten virtual berbasis AI. Ciptakan pengalaman brand yang berkesan untuk area VIP dan lokasi unggulan."
-      },
-      "arvr": {
-        "title": "Stasiun Pengalaman AR/VR",
-        "description": "Membawa penonton melampaui batas fisik melalui aplikasi AR/VR — sempurna untuk tur sejarah virtual, simulasi proyek infrastruktur besar, atau booth pameran kompak."
-      }
-    }
-  },
-  "why": {
-    "label": "Mengapa Envision",
-    "centerHeadline": "Lebih dari Sekadar Display.\nKami Membangun Prestise.",
-    "reasons": {
       "bespoke": {
-        "title": "Desain Bespoke",
-        "description": "Dibangun sepenuhnya sesuai dengan ruang dan identitas Anda."
+        "title": "Dirancang Khusus",
+        "description": "Seluruh sistem dirancang kustom untuk menyesuaikan ruang, identitas, dan cerita yang ingin disampaikan.",
+        "description_mobile": "Dibangun khusus sesuai ruang, identitas, dan cerita."
       },
       "seamless": {
         "title": "Integrasi Mulus",
-        "description": "Instalasi rapi dan tersembunyi yang menyatu sempurna dengan interior Anda."
+        "description": "Merancang hardware dan software layar sentuh canggih menggunakan layar OLED transparan untuk menampilkan artefak tanpa perlu menyentuhnya.",
+        "description_mobile": "Instalasi bersih yang menyatu dengan interior."
       },
       "enterprise": {
         "title": "Keandalan Enterprise",
-        "description": "Dirancang untuk beroperasi 24/7 dengan hardware kelas industri yang tahan lama."
+        "description": "Dibangun untuk operasional 24/7 dengan hardware industri yang kokoh dan tahan lama.",
+        "description_mobile": "Sistem industrial yang tangguh untuk penggunaan 24/7."
+      },
+      "endtoend": {
+        "title": "Mitra End-to-End",
+        "description": "Dari konsep hingga dukungan jangka panjang, semua dalam satu tangan.",
+        "description_mobile": "Dari konsep hingga dukungan jangka panjang."
+      }
+    }
+  },
+  "services": {
+    "label": "Produk & Layanan",
+    "headline": "Empat Pilar\nKeunggulan Display",
+    "subheadline": "Solusi end-to-end untuk kebutuhan display spasial Anda: hardware, software, dan dukungan berkelanjutan.",
+    "readMore": "Selengkapnya",
+    "slides": {
+      "visual-engine": {
+        "title": "Visual Engine",
+        "description": "Didukung layar micro-LED seamless dan media server berperforma tinggi, Envision menghadirkan visual ultra-detail secara real-time.",
+        "features": [
+          {
+            "label": "Micro-LED Modula Cabinets (Fine Pitch)",
+            "detail": "Kecerahan tinggi dengan visual sempurna tanpa sambungan"
+          },
+          {
+            "label": "Media Server Kelas Atas",
+            "detail": "Rendering 8K/16K real-time untuk output ultra-detail"
+          },
+          {
+            "label": "Hitam Absolut & Kontras Tak Terbatas",
+            "detail": "Hitam sejati yang membuat visual tampak melayang"
+          },
+          {
+            "label": "Zero Shadow",
+            "detail": "Bebas bergerak tanpa mengganggu kualitas proyeksi visual"
+          }
+        ]
+      },
+      "kinesthetic-core": {
+        "title": "Sentuh & Interaksi",
+        "description": "Hardware layar sentuh canggih dan layar OLED transparan memungkinkan pengunjung menjelajahi konten secara langsung tanpa hambatan.",
+        "features": [
+          {
+            "label": "OLED Transparan",
+            "detail": "Tampilkan artefak langsung melalui layar"
+          },
+          {
+            "label": "Multi-touch Surface",
+            "detail": "Hingga 40 titik sentuh secara bersamaan"
+          },
+          {
+            "label": "Integrasi CMS",
+            "detail": "Kelola konten dari jarak jauh secara real-time"
+          },
+          {
+            "label": "Desain Zero-Bezel",
+            "detail": "Kanvas interaktif edge-to-edge tanpa batas"
+          }
+        ]
+      },
+      "spatial-audio": {
+        "title": "Audio Spasial",
+        "description": "Display holografik 3D melayang dan kios asisten virtual berbasis AI menciptakan pengalaman brand tak terlupakan di area VIP.",
+        "features": [
+          {
+            "label": "Pepper's Ghost Upgrade",
+            "detail": "Ilusi 3D melayang yang fotorealistis"
+          },
+          {
+            "label": "AI Avatar Engine",
+            "detail": "Tuan rumah virtual interaktif dengan suara"
+          },
+          {
+            "label": "Sudut Pandang 360°",
+            "detail": "Terlihat dari semua sisi tanpa titik buta"
+          },
+          {
+            "label": "Rendering Real-Time",
+            "detail": "Konten dinamis yang digerakkan data live"
+          }
+        ]
+      },
+      "frictionless-interaction": {
+        "title": "Melampaui Realitas",
+        "description": "Membawa penonton melampaui batas fisik melalui aplikasi AR/VR, sempurna untuk tur sejarah virtual dan simulasi infrastruktur berskala besar.",
+        "features": [
+          {
+            "label": "Stasiun Headset VR",
+            "detail": "Booth mandiri untuk imersi penuh"
+          },
+          {
+            "label": "AR Overlay Mapping",
+            "detail": "Tambahkan lapisan digital ke ruang fisik"
+          },
+          {
+            "label": "Simulasi Sejarah",
+            "detail": "Jelajahi situs warisan yang direkonstruksi"
+          },
+          {
+            "label": "Multi-User Sync",
+            "detail": "Sesi VR bersama untuk pengalaman kelompok"
+          }
+        ]
+      },
+      "atmospheric-synthesizer": {
+        "title": "Suara Atmospheric-Synthesizer",
+        "description": "Arsitektur audio imersif yang dipetakan secara presisi ke setiap zona visual, menciptakan lingkungan sensorik yang menyeluruh.",
+        "features": [
+          {
+            "label": "Dolby Atmos",
+            "detail": "Audio 3D berbasis objek untuk imersi total"
+          },
+          {
+            "label": "Kalibrasi Zona",
+            "detail": "Audio yang disetel otomatis per zona display"
+          },
+          {
+            "label": "Speaker Beamforming",
+            "detail": "Suara terarah tanpa kebocoran ke zona lain"
+          },
+          {
+            "label": "Acoustic Mapping",
+            "detail": "Respons ruangan dioptimalkan AI secara real-time"
+          }
+        ]
+      }
+    }
+  },
+  "platform": {
+    "label": "Platform",
+    "headline": "Alur pengalaman Envision.",
+    "subheadline": "Setiap kunjungan dirancang sebagai perjalanan emosional — dari melepaskan dunia luar hingga refleksi mendalam setelah puncak pengalaman.",
+    "reasons": {
+      "bespoke": {
+        "title": "Koridor Transisi",
+        "description": "Pengunjung masuk melalui koridor dengan efek tekanan udara dan pencahayaan dinamis yang menciptakan rasa terpisah dari dunia luar.",
+        "description_mobile": "Koridor dengan efek tekanan udara dan pencahayaan dinamis yang memisahkan pengunjung dari dunia luar."
+      },
+      "seamless": {
+        "title": "Ambil Kendali",
+        "description": "Penonton mengambil kendali, menjelajahi dan berinteraksi dengan lingkungan digital menggunakan gerakan tubuh mereka sendiri.",
+        "description_mobile": "Pengunjung berinteraksi dan menjelajahi menggunakan gerakan tubuh."
+      },
+      "enterprise": {
+        "title": "Puncak Sinematik",
+        "description": "Pengalaman sinematik yang paling memukau. Penonton merasakan gerakan fisik, suara imersif, dan visual spektakuler sekaligus dalam satu momen.",
+        "description_mobile": "Puncak pengalaman sinematik dengan gerakan, suara imersif, dan visual yang menakjubkan."
       },
       "partner": {
-        "title": "Mitra End-to-End",
-        "description": "Dari konsep hingga dukungan jangka panjang, semua dalam satu tangan."
+        "title": "Pendaratan Lembut",
+        "description": "Momen refleksi terakhir di suasana tenang, dengan suhu yang kembali normal dan aroma menenangkan di udara sebelum melangkah keluar.",
+        "description_mobile": "Momen penutup yang tenang dengan suhu normal dan aroma menenangkan."
       }
     }
   },
@@ -88,18 +208,17 @@
     }
   },
   "cta": {
-    "headline": "Mari Wujudkan Display Anda Berikutnya.",
-    "body": "Siap mengubah ruang Anda menjadi destinasi visual yang tak terlupakan? Ceritakan proyek Anda, dan kami akan menghubungi Anda dalam 24 jam.",
+    "headline": "Masa Depan Menantimu.",
+    "body": "Siap mengubah ruangmu menjadi destinasi visual yang tak terlupakan? Ceritakan proyekmu, dan kami akan menghubungimu dalam 24 jam.",
     "cta": "Konsultasi Gratis"
   },
   "footer": {
     "tagline": "Merancang Warisan Masa Depan",
     "copyright": "© 2026 Envision. Hak Cipta Dilindungi.",
     "links": {
-      "product": "Produk",
-      "services": "Layanan",
-      "whyChooseUs": "Mengapa Kami",
-      "consultation": "Konsultasi"
+      "about": "Tentang",
+      "platform": "Platform",
+      "ourProcess": "Proses Kami"
     }
   }
 }

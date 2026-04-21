@@ -1,63 +1,183 @@
 {
   "nav": {
     "about": "About",
-    "products": "Products and Services",
-    "whyEnvision": "Why Envision",
-    "ourProcess": "Our Process",
-    "getConsultation": "Get Consultation"
+    "platform": "Platform",
+    "ourProcess": "Our Process"
   },
   "hero": {
-    "headline": "Illuminate Every\nSpace. Story. Stage.",
-    "subheadline": "We design and deploy premium LED & LCD display systems that transform institutional, corporate, and public spaces into captivating visual experiences.",
+    "headline": "The Multiverse Engine",
+    "subheadline": "A cutting-edge visual-engine, kinesthetic-core, and sensory platform blurring the lines between the audience and the narrative.",
     "cta": "Get Consultation"
   },
   "about": {
     "label": "About",
-    "headline": "Translating Legacy,\nArchitecting the\nFuture.",
-    "body": "We turn stories into immersive digital experiences with premium LED and LCD display solutions designed to inform, inspire, and endure."
-  },
-  "products": {
-    "label": "Products & Services",
-    "headline": "Four Pillars of\nDisplay Excellence",
-    "subheadline": "End-to-end solutions for your spatial display needs hardware, software, and ongoing support.",
+    "headline": "Architecting Experience",
+    "subheadline": "In an era where audiences expect more than just watching, Envision redefines experiences beyond the screen. By integrating visuals, motion, atmospheric-synthesizer audio, and sensory elements, we’ve created the Multiverse Engine.",
     "pillars": {
-      "immersive": {
-        "title": "Immersive Display",
-        "description": "Floor-to-ceiling LED panels and 3D projection mapping systems. With spatial audio integration, ideal for main halls, lobbies, and event theaters."
+      "bespoke": {
+        "title": "Bespoke by Design",
+        "description": "The entire system is custom designed to suit the space, identity, and story we want to convey.",
+        "description_mobile": "Custom-built to fit the space, identity, and story."
       },
-      "interactive": {
-        "title": "Interactive Display & Showcases",
-        "description": "Designing advanced touchscreen hardware and software using transparent OLED displays to showcase artifacts without touching them."
+      "seamless": {
+        "title": "Seamless integration",
+        "description": "Designing advanced touchscreen hardware and software using transparent OLED displays to showcase artifacts without touching them.",
+        "description_mobile": "Clean installation that blends into the interior."
       },
-      "holographic": {
-        "title": "Holographic and AI Avatars",
-        "description": "Floating 3D holographic displays and AI-driven virtual assistant kiosks. Create high-impact brand experiences for VIP areas and flagship locations."
+      "enterprise": {
+        "title": "Enterprise reliability",
+        "description": "Built for 24/7 operation with durable, industrial-grade hardware.",
+        "description_mobile": "Durable, industrial-grade system for 24/7 use."
       },
-      "arvr": {
-        "title": "AR/VR Experience Stations",
-        "description": "Takes viewers beyond physical boundaries through AR/VR apps, perfect for virtual historical tours, simulations of mega-infrastructure projects, or compact exhibition booths"
+      "endtoend": {
+        "title": "End-to-end partner",
+        "description": "From concept to long-term support all under one roof.",
+        "description_mobile": "From concept to long-term support."
       }
     }
   },
-  "why": {
-    "label": "Why Envision",
-    "centerHeadline": "More Than Displays.\nWe Build Prestige.",
+  "services": {
+    "label": "Products & Services",
+    "headline": "Four Pillars of\nDisplay Excellence",
+    "subheadline": "End-to-end solutions for your atmospheric-synthesizer display needs hardware, software, and ongoing support.",
+    "readMore": "Read More",
+    "slides": {
+      "visual-engine": {
+        "title": "Visual Engine",
+        "description": "Powered by micro-LED seamless displays and high-performance media servers, Envision delivers ultra-detailed visuals in real-time.",
+        "features": [
+          {
+            "label": "Micro-LED Modula Cabinets (Fine Pitch)",
+            "detail": "High brightness with perfectly seamless visuals"
+          },
+          {
+            "label": "High-End Media Server",
+            "detail": "Real-time 8K/16K rendering for ultra-detailed output"
+          },
+          {
+            "label": "Absolute Black & Infinite Contrast",
+            "detail": "True deep blacks that make visuals appear to float"
+          },
+          {
+            "label": "Zero Shadow",
+            "detail": "Freedom of movement without affecting visual projection quality"
+          }
+        ]
+      },
+      "kinesthetic-core": {
+        "title": "Touch & Interact",
+        "description": "Advanced touchscreen hardware and transparent OLED displays let visitors explore content hands-on without barriers.",
+        "features": [
+          {
+            "label": "Transparent OLED",
+            "detail": "Showcase artifacts through the display itself"
+          },
+          {
+            "label": "Multi-touch Surface",
+            "detail": "Up to 40 simultaneous touch points"
+          },
+          {
+            "label": "CMS Integration",
+            "detail": "Remote content management in real-time"
+          },
+          {
+            "label": "Zero-Bezel Design",
+            "detail": "Seamless edge-to-edge kinesthetic-core canvas"
+          }
+        ]
+      },
+      "spatial-audio": {
+        "title": "Spatial Audio",
+        "description": "Floating 3D atmospheric-synthesizer-audio displays and AI-driven virtual assistant kiosks create unforgettable brand experiences at VIP areas.",
+        "features": [
+          {
+            "label": "Pepper's Ghost Upgrade",
+            "detail": "Photorealistic floating 3D illusions"
+          },
+          {
+            "label": "AI Avatar Engine",
+            "detail": "kinesthetic-core voice-enabled virtual hosts"
+          },
+          {
+            "label": "360° Viewing Angle",
+            "detail": "No dead zones, visible from all sides"
+          },
+          {
+            "label": "Real-Time Rendering",
+            "detail": "Dynamic content driven by live data feeds"
+          }
+        ]
+      },
+      "frictionless-interaction": {
+        "title": "Beyond Reality",
+        "description": "Takes viewers beyond physical boundaries through AR/VR apps, perfect for virtual historical tours and mega-infrastructure simulations.",
+        "features": [
+          {
+            "label": "VR Headset Stations",
+            "detail": "Standalone booths for full immersion"
+          },
+          {
+            "label": "AR Overlay Mapping",
+            "detail": "Augment physical spaces with digital layers"
+          },
+          {
+            "label": "Historical Simulation",
+            "detail": "Walk through reconstructed heritage sites"
+          },
+          {
+            "label": "Multi-User Sync",
+            "detail": "Shared VR sessions for group experiences"
+          }
+        ]
+      },
+      "atmospheric-synthesizer": {
+        "title": "atmospheric-synthesizer Sound",
+        "description": "visual-engine audio architecture that maps precisely to every visual zone, creating a complete sensory environment.",
+        "features": [
+          {
+            "label": "Dolby Atmos",
+            "detail": "Object-based 3D audio for total immersion"
+          },
+          {
+            "label": "Zone Calibration",
+            "detail": "Audio tuned per display zone automatically"
+          },
+          {
+            "label": "Beamforming Speakers",
+            "detail": "Directional sound without bleed"
+          },
+          {
+            "label": "Acoustic Mapping",
+            "detail": "AI-optimized room response in real-time"
+          }
+        ]
+      }
+    }
+  },
+  "platform": {
+    "label": "Platform",
+    "headline": "The Envision experience flow.",
+    "subheadline": "Each visit is designed as an emotional journey from letting go of the outside world to deep reflection following the peak experience.",
     "reasons": {
       "bespoke": {
-        "title": "Bespoke by Design",
-        "description": "Fully custom-built to match your space and identity."
+        "title": "Transition corridor",
+        "description": "Visitors enter through a corridor featuring air pressure effects and dynamic lighting to create a sense of separation from the outside world.",
+        "description_mobile": "A corridor with air pressure effects and dynamic lighting, separating visitors from the outside world."
       },
       "seamless": {
-        "title": "Seamless Integration",
-        "description": "Clean, hidden installation that blends into your interior."
+        "title": "Take control",
+        "description": "The audience takes control, exploring and interacting with the digital environment using body movements.",
+        "description_mobile": "Visitors interact and explore using body movements."
       },
       "enterprise": {
-        "title": "Enterprise Reliability",
-        "description": "Built for 24/7 use with durable, industrial-grade hardware."
+        "title": "Cinematic peak",
+        "description": "The ultimate cinematic experience. Audiences experience physical movement, immersive sound, and spectacular visuals all at once.",
+        "description_mobile": "A peak cinematic experience with movement, immersive sound, and stunning visuals."
       },
       "partner": {
-        "title": "End-to-End Partner",
-        "description": "From concept to long-term support, all in one hand."
+        "title": "Soft landing",
+        "description": "A final moment of reflection in a quiet setting, with the temperature returning to normal and a soothing scent in the air before stepping outside.",
+        "description_mobile": "A calm closing moment with normal temperature and a soothing scent."
       }
     }
   },
@@ -88,7 +208,7 @@
     }
   },
   "cta": {
-    "headline": "Let's Build Your Next Display.",
+    "headline": "The Future Awaits.",
     "body": "Ready to transform your space into an unforgettable visual destination? Tell us about your project, and we’ll get back to you within 24 hours.",
     "cta": "Get Consultation"
   },
@@ -96,10 +216,9 @@
     "tagline": "Architecting Tomorrow’s Legacy",
     "copyright": "© 2026 Envision. All rights reserved.",
     "links": {
-      "product": "Product",
-      "services": "Services",
-      "whyChooseUs": "Why choose us",
-      "consultation": "Consultation"
+      "about": "About",
+      "platform": "Platform",
+      "ourProcess": "Our Process"
     }
   }
 }

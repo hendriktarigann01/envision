@@ -11,15 +11,20 @@ export default function CTA() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="contact" className="relative py-24 lg:py-32 px-6" ref={ref}>
-      <div className="absolute inset-0 flex justify-center items-center z-10 pointer-events-none">
+    <section
+      id="contact"
+      className="relative py-24 lg:py-32 px-6 overflow-hidden"
+      ref={ref}
+    >
+      <div className="absolute inset-0 z-0">
         <Image
-          src="/images/effects/blur.webp"
-          alt="blur-effect"
-          width={1000}
-          height={1000}
-          className="object-contain"
+          src="/images/common/cta.webp"
+          alt="CTA background"
+          fill
+          className="object-cover object-center md:object-contain"
+          priority
         />
+        <div className="absolute inset-0 bg-[#02030A]/10" />
       </div>
 
       <div className="max-w-[350px] lg:max-w-4xl mx-auto text-center relative z-10">
@@ -27,7 +32,7 @@ export default function CTA() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="font-display text-3xl md:text-4xl leading-[1.1] text-white mb-6"
+          className="font-display font-bold text-4xl md:text-6xl leading-[1.1] text-white mb-6"
         >
           {t("headline")}
         </motion.h2>
@@ -36,7 +41,7 @@ export default function CTA() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.15 }}
-          className="font-body text-white text-sm md:text-base leading-relaxed mb-10 mx-auto"
+          className="font-body text-white/90 max-w-2xl text-sm md:text-base leading-relaxed mb-10 mx-auto"
         >
           {t("body")}
         </motion.p>
@@ -48,7 +53,7 @@ export default function CTA() {
         >
           <a
             href="mailto:hello@envision.com"
-            className="inline-flex items-center gap-2 px-8 py-3 font-display font-semibold text-sm text-white bg-brand-indigo transition-all duration-300 rounded-xl"
+            className="inline-flex items-center gap-2 px-8 py-3 font-display font-semibold text-sm text-white border border-white/40 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300 rounded-xl"
           >
             {t("cta")}
           </a>

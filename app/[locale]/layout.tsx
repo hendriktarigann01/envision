@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Envision - Trusted Digital Display Solutions",
   description:
-    "We illuminate displays with premium LED, LCD display solutions — holographic, AR/VR, spaces and venues.",
+    "We illuminate displays with premium LED, LCD display solutions — atmospheric-synthesizer-audio, AR/VR, spaces and venues.",
 };
 
 export function generateStaticParams() {
@@ -54,7 +54,7 @@ export default async function LocaleLayout({
               url: baseUrl,
               logo: `${baseUrl}/images/logos/logo-default.webp`,
               description:
-                "We illuminate displays with premium LED, LCD display solutions — holographic, AR/VR, spaces and venues.",
+                "We illuminate displays with premium LED, LCD display solutions — atmospheric-synthesizer-audio, AR/VR, spaces and venues.",
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Customer Service",
@@ -68,7 +68,7 @@ export default async function LocaleLayout({
             {/* Google Tag Manager */}
             <Script
               id="gtm-script"
-              strategy="afterInteractive"
+              strategy="afterkinesthetic-core"
               dangerouslySetInnerHTML={{
                 __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID}');`,
               }}
@@ -77,11 +77,11 @@ export default async function LocaleLayout({
             {/* Google Analytics */}
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-              strategy="afterInteractive"
+              strategy="afterkinesthetic-core"
             />
             <Script
               id="gtag-script"
-              strategy="afterInteractive"
+              strategy="afterkinesthetic-core"
               dangerouslySetInnerHTML={{
                 __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${process.env.NEXT_PUBLIC_GA_ID}');`,
               }}

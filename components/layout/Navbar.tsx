@@ -20,8 +20,7 @@ export default function Navbar() {
 
   const navLinks = [
     { label: t("about"), href: "#about" },
-    { label: t("products"), href: "#products" },
-    { label: t("whyEnvision"), href: "#why" },
+    { label: t("platform"), href: "#platform" },
     { label: t("ourProcess"), href: "#process" },
   ];
 
