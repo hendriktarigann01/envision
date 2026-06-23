@@ -44,7 +44,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-8">
             <a
-              href="#"
+              href="https://www.instagram.com/envsn.asia"
               className="flex items-center gap-2 text-sm font-body text-white hover:text-white transition-colors"
             >
               <Image

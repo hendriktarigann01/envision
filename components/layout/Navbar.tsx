@@ -67,16 +67,19 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-12">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-base font-body text-white transition-colors duration-200"
-              >
-                {link.label}
-              </a>
-            ))}
+          <nav className="hidden md:flex items-center" aria-label="Main Navigation">
+            <ul className="flex items-center gap-12">
+              {navLinks.map((link) => (
+                <li key={link.label}>
+                  <a
+                    href={link.href}
+                    className="text-base font-body text-white transition-colors duration-200"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
@@ -148,19 +151,26 @@ export default function Navbar() {
             className="fixed inset-0 z-[90] bg-[#02030A] flex flex-col items-center justify-center gap-8 md:hidden"
           >
             {/* Nav links */}
-            {navLinks.map((link, i) => (
-              <motion.a
-                key={link.label}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.05 + i * 0.06, duration: 0.4 }}
-                className="text-2xl font-display font-bold text-white transition-colors"
-              >
-                {link.label}
-              </motion.a>
-            ))}
+            <nav aria-label="Mobile Navigation">
+              <ul className="flex flex-col items-center gap-8">
+                {navLinks.map((link, i) => (
+                  <motion.li
+                    key={link.label}
+                    initial={{ opacity: 0, y: 16 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.05 + i * 0.06, duration: 0.4 }}
+                  >
+                    <a
+                      href={link.href}
+                      onClick={() => setMobileOpen(false)}
+                      className="text-2xl font-display font-bold text-white transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  </motion.li>
+                ))}
+              </ul>
+            </nav>
 
             {/* Divider */}
             <motion.div

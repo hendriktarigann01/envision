@@ -14,9 +14,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Envision - Trusted Digital Display Solutions",
+  title: "Envision",
   description:
-    "We illuminate displays with premium LED, LCD display solutions — atmospheric-synthesizer-audio, AR/VR, spaces and venues.",
+    "The Ultimate Immersive, Interactive & Sensory Platform delivering hyper-reality experiences through the Multiverse Engine.",
 };
 
 export function generateStaticParams() {
@@ -52,9 +52,9 @@ export default async function LocaleLayout({
               "@type": "Organization",
               name: "Envision",
               url: baseUrl,
-              logo: `${baseUrl}/images/logos/logo-default.webp`,
+              logo: `${baseUrl}/images/logos/logo.webp`,
               description:
-                "We illuminate displays with premium LED, LCD display solutions — atmospheric-synthesizer-audio, AR/VR, spaces and venues.",
+                "The Ultimate Immersive, Interactive & Sensory Platform delivering hyper-reality experiences through the Multiverse Engine.",
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Customer Service",
@@ -62,6 +62,39 @@ export default async function LocaleLayout({
             }),
           }}
         />
+
+        {/* SiteNavigationElement for Google Sitelinks (English only) */}
+        {locale === "en" && (
+          <Script
+            id="schema-site-navigation"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@graph": [
+                  {
+                    "@type": "SiteNavigationElement",
+                    "@id": `${baseUrl}/#about`,
+                    name: "About",
+                    url: `${baseUrl}/#about`,
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "@id": `${baseUrl}/#platform`,
+                    name: "Platform",
+                    url: `${baseUrl}/#platform`,
+                  },
+                  {
+                    "@type": "SiteNavigationElement",
+                    "@id": `${baseUrl}/#process`,
+                    name: "Our Process",
+                    url: `${baseUrl}/#process`,
+                  },
+                ],
+              }),
+            }}
+          />
+        )}
 
         {process.env.NODE_ENV === "production" && (
           <>
