@@ -18,11 +18,19 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
 
-  const navLinks = [
-    { label: t("about"), href: "#about" },
-    { label: t("platform"), href: "#platform" },
-    { label: t("ourProcess"), href: "#process" },
-  ];
+  const isHome = pathname === "/";
+
+  const navLinks = isHome
+    ? [
+        { label: t("home"), href: "/" },
+        { label: t("content"), href: "/our-content" },
+        { label: t("article"), href: "/article" },
+      ]
+    : [
+        { label: t("home"), href: "/" },
+        { label: t("content"), href: "/our-content" },
+        { label: t("article"), href: "/article" },
+      ];
 
   const locales = Object.keys(localeNames) as Locale[];
 
@@ -51,7 +59,7 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
         className={`fixed top-0 left-0 right-0 z-[99] transition-all duration-300 ${
-          scrolled ? "bg-[#02030A]/95 backdrop-blur-md" : "bg-transparent"
+          scrolled ? "bg-transparent backdrop-blur-sm" : "bg-transparent"
         }`}
       >
         <div className="container mx-auto flex items-center justify-between max-w-7xl px-6 lg:px-0 h-20">
@@ -67,10 +75,13 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center" aria-label="Main Navigation">
+          <nav
+            className="hidden md:flex items-center"
+            aria-label="Main Navigation"
+          >
             <ul className="flex items-center gap-12">
               {navLinks.map((link) => (
-                <li key={link.label}>
+                <li key={link.label} className="w-16 text-center">
                   <a
                     href={link.href}
                     className="text-base font-body text-white transition-colors duration-200"

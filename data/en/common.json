@@ -1,8 +1,11 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About",
     "platform": "Platform",
-    "ourProcess": "Our Process"
+    "ourProcess": "Our Process",
+    "content": "Content",
+    "article": "Article"
   },
   "hero": {
     "headline": "The Multiverse Engine",
@@ -15,24 +18,38 @@
     "subheadline": "In an era where audiences expect more than just watching, Envision redefines experiences beyond the screen. By integrating visuals, motion, atmospheric-synthesizer audio, and sensory elements, we’ve created the Multiverse Engine.",
     "pillars": {
       "bespoke": {
-        "title": "Bespoke by Design",
-        "description": "The entire system is custom designed to suit the space, identity, and story we want to convey.",
-        "description_mobile": "Custom-built to fit the space, identity, and story."
+        "badge": "THE ARTISTRY",
+        "title": "It Starts With an Empty Space",
+        "description": "The entire system is custom designed to suit the space, identity, and story we want to convey."
       },
       "seamless": {
-        "title": "Seamless integration",
-        "description": "Designing advanced touchscreen hardware and software using transparent OLED displays to showcase artifacts without touching them.",
-        "description_mobile": "Clean installation that blends into the interior."
+        "badge": "THE ENGINEERING",
+        "title": "Then Comes the Vision",
+        "description": "Stories, ideas, and experiences begin to take shape."
       },
       "enterprise": {
-        "title": "Enterprise reliability",
-        "description": "Built for 24/7 operation with durable, industrial-grade hardware.",
-        "description_mobile": "Durable, industrial-grade system for 24/7 use."
+        "badge": "THE ECOSYSTEM",
+        "title": "Technology Brings It to Life",
+        "description": "Immersive visuals, sound, and interaction merge into a single environment."
       },
       "endtoend": {
-        "title": "End-to-end partner",
-        "description": "From concept to long-term support all under one roof.",
-        "description_mobile": "From concept to long-term support."
+        "title": "Welcome to a New Reality",
+        "description": "A world where audiences don't just watch they become part of the story. "
+      },
+      "artistry": {
+        "badge": "THE ARTISTRY",
+        "title": "Bespoke Digital Artistry",
+        "description": "In-house production of CGI, anamorphic, and generative art content tailored to your brand’s narrative."
+      },
+      "engineering": {
+        "badge": "THE ENGINEERING",
+        "title": "Seamless Engineering",
+        "description": "Industrial-grade LED fixtures that are flush-mounted along the wall and operate 24/7."
+      },
+      "ecosystem": {
+        "badge": "THE ECOSYSTEM",
+        "title": "Lifecycle Ecosystem",
+        "description": "A one-stop solution, from conceptual blueprints and content creation to technical support."
       }
     }
   },
@@ -220,5 +237,33 @@
       "platform": "Platform",
       "ourProcess": "Our Process"
     }
+  },
+  "ourContent": {
+    "label": "Our Content",
+    "headline": "Explore Our Content",
+    "description": "Switch between immersive experiences and discover how a single environment can transform into entirely different realities through content alone.",
+    "tabs": {
+      "nature": "Nature",
+      "abstract": "Abstract",
+      "ocean": "Ocean",
+      "browse": "Browse All Experiences"
+    }
+  },
+  "article": {
+    "label": "Articles",
+    "headline": "Insights & Innovation",
+    "moreComing": "More insights coming soon...",
+    "items": [
+      {
+        "title": "Exploring the Future of Digital Artistry",
+        "date": "June 2026",
+        "excerpt": "How modern display technologies and CGI are reshaping retail and public spaces."
+      },
+      {
+        "title": "How Spatial Audio Transforms Venues",
+        "date": "May 2026",
+        "excerpt": "A deep dive into object-based 3D sound systems and human kinesthetics."
+      }
+    ]
   }
 }

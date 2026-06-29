@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Script from "next/script";
 import "../globals.css";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -40,7 +41,7 @@ export default async function LocaleLayout({
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://envsn.asia";
 
   return (
-    <html lang={locale} className="scroll-smooth">
+    <html lang={locale} className="scroll-smooth hide-scrollbar">
       <head>
         {/* Schema.org */}
         <Script
@@ -136,6 +137,7 @@ export default async function LocaleLayout({
         )}
 
         <NextIntlClientProvider messages={messages}>
+          <SmoothScroll />
           {children}
         </NextIntlClientProvider>
       </body>

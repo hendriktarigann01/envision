@@ -67,7 +67,7 @@ export default function Services() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="hidden md:block relative rounded-2xl overflow-hidden border border-[#1E3A8A]"
+          className="hidden md:block relative rounded-2xl overflow-hidden border border-[#424242]"
           style={{ aspectRatio: "21/9" }}
         >
           <AnimatePresence mode="wait" custom={direction}>
@@ -139,7 +139,7 @@ export default function Services() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="md:hidden relative rounded-2xl overflow-hidden border border-[#1E3A8A]"
+          className="md:hidden relative rounded-2xl overflow-hidden border border-[#424242]"
           style={{ minHeight: "500px" }}
         >
           <AnimatePresence mode="wait" custom={direction}>
@@ -178,7 +178,7 @@ export default function Services() {
               </p>
               <button
                 onClick={openExpanded}
-                className="self-start px-5 py-2.5 rounded-xl border border-[#1E3A8A] bg-transparent text-white text-sm font-body hover:bg-[#1E3A8A]/20 transition-all duration-200"
+                className="self-start px-5 py-2.5 rounded-xl border border-[#424242] bg-transparent text-white text-sm font-body hover:bg-[#424242]/20 transition-all duration-200"
               >
                 {t("readMore")}
               </button>
@@ -190,12 +190,12 @@ export default function Services() {
         <div className="flex items-center justify-center gap-5 mt-8 h-10">
           <button
             onClick={prev}
-            className="w-11 h-11 rounded-full border border-[#1E3A8A] bg-[#0a0f1e] flex items-center justify-center text-white hover:bg-[#1E3A8A]/20 transition-all duration-200"
+            className="w-11 h-11 rounded-full border border-[#424242] bg-[#0a0f1e] flex items-center justify-center text-white hover:bg-[#424242]/20 transition-all duration-200"
           >
             <ChevronLeft size={18} />
           </button>
 
-          <div className="flex items-center gap-2 px-5 py-5 h-full rounded-full border border-[#1E3A8A] bg-[#0a0f1e]/80 backdrop-blur-sm">
+          <div className="flex items-center gap-2 px-5 py-5 h-full rounded-full border border-[#424242] backdrop-blur-sm">
             {slideKeys.map((_, i) => (
               <button
                 key={i}
@@ -213,7 +213,7 @@ export default function Services() {
 
           <button
             onClick={next}
-            className="w-11 h-11 rounded-full border border-[#1E3A8A] bg-[#0a0f1e] flex items-center justify-center text-white hover:bg-[#1E3A8A]/20 transition-all duration-200"
+            className="w-11 h-11 rounded-full border border-[#424242] bg-[#0a0f1e] flex items-center justify-center text-white hover:bg-[#424242]/20 transition-all duration-200"
           >
             <ChevronRight size={18} />
           </button>
@@ -249,14 +249,14 @@ export default function Services() {
               />
             </div>
 
-            <div className="px-4 py-8 border border-[#1E3A8A] rounded-lg relative">
+            <div className="px-4 py-8 border border-[#424242] rounded-lg relative">
               <div className="flex items-start justify-between w-full mb-8">
                 <h3 className="font-display font-bold text-2xl text-white mt-4 pr-4">
                   {t(`slides.${key}.title`)}
                 </h3>
                 <button
                   onClick={closeExpanded}
-                  className="mt-4 w-11 h-11 flex-shrink-0 rounded-full border border-[#1E3A8A] bg-[#0a0f1e] flex items-center justify-center text-white hover:bg-[#1E3A8A]/30 transition-all duration-200"
+                  className="mt-4 w-11 h-11 flex-shrink-0 rounded-full border border-[#424242] bg-[#0a0f1e] flex items-center justify-center text-white hover:bg-[#424242]/30 transition-all duration-200"
                 >
                   <X size={18} />
                 </button>
@@ -269,7 +269,7 @@ export default function Services() {
                     initial={{ opacity: 0, y: 12 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3, delay: fi * 0.07 }}
-                    className="rounded-xl p-4 border border-[#1E3A8A]"
+                    className="rounded-xl p-4 border border-[#424242]"
                   >
                     <p className="font-body text-sm text-white leading-snug">
                       <span className="font-semibold">

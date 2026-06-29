@@ -28,23 +28,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, dan Opera */
+}
+
 ::selection {
   background: var(--brand-blue);
   color: var(--brand-white);
 }
 
-::-webkit-scrollbar {
-  width: 4px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--brand-black);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--brand-blue);
-  border-radius: 2px;
-}
 
 @layer utilities {
   .text-balance {

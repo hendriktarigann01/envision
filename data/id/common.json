@@ -1,8 +1,11 @@
 {
   "nav": {
+    "home": "Beranda",
     "about": "Tentang",
     "platform": "Platform",
-    "ourProcess": "Proses Kami"
+    "ourProcess": "Proses Kami",
+    "content": "Konten",
+    "article": "Artikel"
   },
   "hero": {
     "headline": "The Multiverse Engine",
@@ -15,24 +18,35 @@
     "subheadline": "Di era ketika penonton mengharapkan lebih dari sekadar menonton, Envision mendefinisikan ulang pengalaman melampaui layar. Dengan memadukan visual, gerak, audio atmospheric-synthesizer, dan elemen sensorik, kami menciptakan Multiverse Engine.",
     "pillars": {
       "bespoke": {
-        "title": "Dirancang Khusus",
-        "description": "Seluruh sistem dirancang kustom untuk menyesuaikan ruang, identitas, dan cerita yang ingin disampaikan.",
-        "description_mobile": "Dibangun khusus sesuai ruang, identitas, dan cerita."
+        "title": "Semua Dimulai dari Ruang Kosong",
+        "description": "Seluruh sistem dirancang kustom untuk menyesuaikan ruang, identitas, dan cerita yang ingin disampaikan."
       },
       "seamless": {
-        "title": "Integrasi Mulus",
-        "description": "Merancang hardware dan software layar sentuh canggih menggunakan layar OLED transparan untuk menampilkan artefak tanpa perlu menyentuhnya.",
-        "description_mobile": "Instalasi bersih yang menyatu dengan interior."
+        "title": "Kemudian Datanglah Visi",
+        "description": "Cerita, ide, dan pengalaman mulai terbentuk."
       },
       "enterprise": {
-        "title": "Keandalan Enterprise",
-        "description": "Dibangun untuk operasional 24/7 dengan hardware industri yang kokoh dan tahan lama.",
-        "description_mobile": "Sistem industrial yang tangguh untuk penggunaan 24/7."
+        "title": "Teknologi Menghidupkannya",
+        "description": "Visual imersif, suara, dan interaksi menyatu ke dalam satu lingkungan."
       },
       "endtoend": {
-        "title": "Mitra End-to-End",
-        "description": "Dari konsep hingga dukungan jangka panjang, semua dalam satu tangan.",
-        "description_mobile": "Dari konsep hingga dukungan jangka panjang."
+        "title": "Selamat Datang di Realitas Baru",
+        "description": "Sebuah dunia tempat penonton tidak hanya menonton, melainkan menjadi bagian dari cerita."
+      },
+      "artistry": {
+        "badge": "THE ARTISTRY",
+        "title": "Seni Digital Kustom",
+        "description": "Produksi internal konten CGI, seni anamorfik, dan generatif yang disesuaikan dengan narasi merek Anda."
+      },
+      "engineering": {
+        "badge": "THE ENGINEERING",
+        "title": "Rekayasa Tanpa Celah",
+        "description": "Perangkat LED kelas industri yang dipasang rata di sepanjang dinding dan beroperasi 24/7."
+      },
+      "ecosystem": {
+        "badge": "THE ECOSYSTEM",
+        "title": "Ekosistem Siklus Hidup",
+        "description": "Solusi satu atap, mulai dari cetak biru konseptual dan pembuatan konten hingga dukungan teknis."
       }
     }
   },
@@ -220,5 +234,33 @@
       "platform": "Platform",
       "ourProcess": "Proses Kami"
     }
+  },
+  "ourContent": {
+    "label": "Konten Kami",
+    "headline": "Jelajahi Konten Kami",
+    "description": "Beralih di antara pengalaman imersif dan temukan bagaimana satu lingkungan dapat berubah menjadi realitas yang sama sekali berbeda hanya melalui konten.",
+    "tabs": {
+      "nature": "Nature",
+      "abstract": "Abstract",
+      "ocean": "Ocean",
+      "browse": "Telusuri Semua Pengalaman"
+    }
+  },
+  "article": {
+    "label": "Artikel",
+    "headline": "Wawasan & Inovasi",
+    "moreComing": "Lebih banyak wawasan segera hadir...",
+    "items": [
+      {
+        "title": "Menjelajahi Masa Depan Seni Digital",
+        "date": "Juni 2026",
+        "excerpt": "Bagaimana teknologi tampilan modern dan CGI membentuk kembali ruang ritel dan publik."
+      },
+      {
+        "title": "Bagaimana Audio Spasial Mengubah Venue",
+        "date": "Mei 2026",
+        "excerpt": "Kajian mendalam tentang sistem suara 3D berbasis objek dan kinestetik manusia."
+      }
+    ]
   }
 }

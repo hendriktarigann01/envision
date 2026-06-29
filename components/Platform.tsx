@@ -18,29 +18,7 @@ export default function Platform() {
       className="relative py-24 lg:py-32 px-6 overflow-hidden"
       ref={ref}
     >
-      <div className="absolute top-[25%] lg:top-[10%] left-1/2 -translate-x-1/2 z-0 pointer-events-none">
-        <Image
-          src="/images/effects/blur.webp"
-          alt="blur-effect"
-          width={1500}
-          height={1500}
-          className="object-contain scale-[5] md:scale-[1.6]"
-        />
-      </div>
       <div className="max-w-7xl relative mx-auto z-50">
-        {/* Label */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5 }}
-          className="flex items-center mx-auto gap-2 mb-8 px-4 py-2 rounded-full w-fit border border-[#1843F5]"
-        >
-          <span className="w-2 h-2 rounded-full bg-[#1843F5]" />
-          <span className="text-sm font-body text-[#3B82F6] tracking-widest">
-            {t("label")}
-          </span>
-        </motion.div>
-
         {/* Headline */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -66,7 +44,7 @@ export default function Platform() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="rounded-2xl border border-[#1843F5]/30 bg-[#060A1A] overflow-hidden"
+          className="rounded-2xl border border-[#424242] overflow-hidden"
         >
           {/* ── DESKTOP: 3 columns ── */}
           <div className="hidden md:grid md:grid-cols-[1fr_320px_1fr] xl:grid-cols-[1fr_380px_1fr] h-[460px]">
