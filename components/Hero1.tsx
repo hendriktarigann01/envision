@@ -10,7 +10,6 @@ export default function Hero1() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden bg-transparent">
       {/* Background is managed by HeroVideoBackground */}
-
       <div className="relative z-10 text-center px-6 space-y-10">
         <div className="w-[350px] md:w-full mx-auto">
           <motion.h1
