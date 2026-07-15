@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
 import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -22,7 +23,9 @@ export async function generateStaticParams() {
   );
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { locale, slug } = await params;
   const article = ARTICLES.find((a) => a.slug === slug);
   if (!article) {
@@ -30,7 +33,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const firstParagraph = article.content?.[0] || "";
-  const description = firstParagraph.replace(/^[0-9]+\s+[A-Za-z]+\s+[0-9]+\s+-\s+/, "").substring(0, 160) + "...";
+  const description =
+    firstParagraph
+      .replace(/^[0-9]+\s+[A-Za-z]+\s+[0-9]+\s+-\s+/, "")
+      .substring(0, 160) + "...";
   const canonicalUrl = `https://envsn.asia/${locale}/article/${slug}`;
 
   return {
@@ -57,7 +63,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         },
       ],
       type: "article",
-      publishedTime: article.date === "14 July 2026" ? "2026-07-14T00:00:00Z" : "2026-03-30T00:00:00Z",
+      publishedTime:
+        article.date === "14 July 2026"
+          ? "2026-07-14T00:00:00Z"
+          : "2026-03-30T00:00:00Z",
       authors: [article.author],
     },
     twitter: {
@@ -84,7 +93,10 @@ export default async function ArticleDetailPage({ params }: PageProps) {
     .toUpperCase();
 
   const firstParagraph = article.content?.[0] || "";
-  const articleDesc = firstParagraph.replace(/^[0-9]+\s+[A-Za-z]+\s+[0-9]+\s+-\s+/, "");
+  const articleDesc = firstParagraph.replace(
+    /^[0-9]+\s+[A-Za-z]+\s+[0-9]+\s+-\s+/,
+    "",
+  );
   const canonicalUrl = `https://envsn.asia/${locale}/article/${slug}`;
 
   const jsonLd = {
@@ -92,8 +104,14 @@ export default async function ArticleDetailPage({ params }: PageProps) {
     "@type": "BlogPosting",
     headline: article.title,
     image: [`https://envsn.asia${article.image}`],
-    datePublished: article.date === "14 July 2026" ? "2026-07-14T00:00:00+00:00" : "2026-03-30T00:00:00+00:00",
-    dateModified: article.date === "14 July 2026" ? "2026-07-14T00:00:00+00:00" : "2026-03-30T00:00:00+00:00",
+    datePublished:
+      article.date === "14 July 2026"
+        ? "2026-07-14T00:00:00+00:00"
+        : "2026-03-30T00:00:00+00:00",
+    dateModified:
+      article.date === "14 July 2026"
+        ? "2026-07-14T00:00:00+00:00"
+        : "2026-03-30T00:00:00+00:00",
     author: [
       {
         "@type": "Person",
@@ -144,7 +162,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
 
         {/* Category badge */}
         <div className="mb-8">
-          <span className="inline-flex items-center px-5 py-1.5 rounded-full border border-white/20 font-body text-xs text-white/80">
+          <span className="inline-flex items-center px-6 py-3 rounded-full border border-white/20 font-body text-xs text-white/80">
             {article.category}
           </span>
         </div>
@@ -165,7 +183,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
         </div>
 
         {/* Content body */}
-        <div className="font-body text-white/80 text-sm md:text-base leading-relaxed space-y-6">
+        <div className="mb-8 font-body text-white/80 text-sm md:text-base leading-relaxed space-y-6">
           {article.content?.map((paragraph, index) => {
             if (paragraph.startsWith("## ")) {
               return (
@@ -183,6 +201,15 @@ export default async function ArticleDetailPage({ params }: PageProps) {
               </p>
             );
           })}
+        </div>
+
+        <div className="w-full flex justify-center">
+          <Link
+            href="/article"
+            className="inline-flex items-center px-6 py-3 rounded-full border border-white/20 font-body text-xs text-white/80 hover:bg-white/10 transition-colors"
+          >
+            Read Other Articles
+          </Link>
         </div>
       </article>
 

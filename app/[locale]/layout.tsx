@@ -41,7 +41,7 @@ export default async function LocaleLayout({
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://envsn.asia";
 
   return (
-    <html lang={locale} className="scroll-smooth hide-scrollbar">
+    <html lang={locale} className="scroll-smooth hide-scrollbar" suppressHydrationWarning>
       <head>
         {/* Schema.org */}
         <Script
